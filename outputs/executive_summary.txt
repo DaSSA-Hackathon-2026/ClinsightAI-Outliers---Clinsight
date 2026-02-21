@@ -1,0 +1,19 @@
+EXECUTIVE SUMMARY (for clinic owners)
+
+Overall rating average: 3.57
+
+Top operational risks driving low ratings:
+1) Wait Time & Poor Coordination (freq 17.47%, impact -1.101, avg rating 2.45, confidence 0.34)
+2) Clinical Quality vs Management Gap (freq 9.14%, impact -1.23, avg rating 2.32, confidence 0.18)
+
+Top strengths to protect and scale:
+1) High Satisfaction – Overall Care (freq 31.63%, impact 0.921, avg rating 4.47, confidence 0.31)
+2) Individual Staff Appreciation (freq 1.71%, impact 1.098, avg rating 4.65, confidence 0.03)
+
+What this means:
+- Fixing Wait Time & Poor Coordination is the fastest path to reduce 1–2 star reviews because it is both frequent and strongly predictive of low ratings.
+- Clinical Quality vs Management Gap has the largest rating drop per occurrence, so it needs escalation workflows and standardization.
+
+Recommended next actions (30–45 days):
+- Quick wins: improve visibility + communication (queue transparency, proactive updates), service recovery SOPs, complaint SLA.
+- High-effort: scheduling redesign, triage optimization, front-desk + discharge/billing standardization.

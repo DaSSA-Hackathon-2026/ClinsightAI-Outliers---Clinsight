@@ -1,0 +1,22 @@
+WEEKLY KPI TRACKING (clinic ops dashboard)
+- Post-visit issue rate
+- Billing dispute rate
+- Discharge turnaround time
+- Follow-up completion %
+- Avg wait time (mins)
+- On-time appointment %
+- Queue abandonment rate
+- Complaints per 100 visits
+- Courtesy score (survey)
+- Complaint resolution SLA
+- Staff responsiveness score
+- Cleanliness score
+- Facility issue tickets per week
+- Downtime incidents
+- 5-star share %
+- Service recovery success %
+- NPS/CSAT
+- Repeat visit rate
+- Review volume growth
+- Staff mentions per 100 reviews
+- Recognition conversion rate

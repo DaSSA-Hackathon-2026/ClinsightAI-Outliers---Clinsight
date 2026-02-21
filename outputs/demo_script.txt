@@ -1,0 +1,36 @@
+5–7 MIN DEMO SCRIPT (stakeholder-friendly)
+
+Slide 1 — Problem:
+Healthcare reviews are unstructured. Owners can’t quantify what operational issues truly drive ratings or what to fix first.
+
+Slide 2 — What ClinsightAI does:
+We convert reviews into structured operational themes, quantify rating impact, detect systemic issues, and output a prioritized improvement roadmap with KPIs.
+
+Slide 3 — Data:
+Kaggle hospital reviews (996 reviews), rating 1–5. No PHI.
+
+Slide 4 — Theme Discovery:
+We embed each review (SentenceTransformer all-MiniLM-L6-v2) and cluster them into themes (KMeans best K=7).
+We label each theme using TF-IDF keywords + representative reviews.
+
+Slide 5 — Impact Quantification:
+We estimate rating impact using:
+- Regression coefficients (effect size)
+- Classification model predicting low vs high rating (RandomForest, accuracy ~0.83)
+This produces risk scores (frequency + impact + ML importance).
+
+Slide 6 — Key Findings:
+Overall rating mean: 3.57
+Top risks:
+- Wait Time & Poor Coordination (freq 17.47%, impact -1.101, avg rating 2.45, confidence 0.34)
+- Clinical Quality vs Management Gap (freq 9.14%, impact -1.23, avg rating 2.32, confidence 0.18)
+Top strengths:
+- High Satisfaction – Overall Care (freq 31.63%, impact 0.921, avg rating 4.47, confidence 0.31)
+
+Slide 7 — Business Roadmap (prioritized):
+Priority 1: Clinical Quality vs Management Gap → Standardize discharge/billing communication; train front-desk workflow; implement escalation path. | KPIs: Post-visit issue rate, Billing dispute rate, Discharge turnaround time
+Priority 2: Wait Time & Poor Coordination → Optimize appointment scheduling + triage; add live queue visibility; enforce on-time SLA. | KPIs: Avg wait time (mins), On-time appointment %, Queue abandonment rate
+Priority 3: Staff Courtesy & Service Quality → Run service training; implement complaint-resolution SLA and coaching loop. | KPIs: Courtesy score (survey), Complaint resolution SLA, Staff responsiveness score
+
+Close:
+ClinsightAI turns review noise into a quantified operational plan: what to fix, why it matters, expected lift, and how to measure success.

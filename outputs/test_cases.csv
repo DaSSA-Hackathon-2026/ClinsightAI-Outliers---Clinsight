@@ -1,0 +1,6 @@
+test_case_id,input_review,expected_theme,systemic_expected,expected_rating_impact,expected_risk_score,confidence,why_this_case
+TC-01,The staff and doctor made us to wait till evening When ever enquired we were told some more patients are in the queue,Wait Time & Poor Coordination,True,-1.101,0.613,0.34,Pulled from dashboard evidence samples to validate theme detection + business interpretation.
+TC-02,Staff is so polite and friendly Doctors are kind and diagnosed throughly Had a great experience,Clinical Quality vs Management Gap,False,-1.23,0.583,0.18,Pulled from dashboard evidence samples to validate theme detection + business interpretation.
+TC-03,I had an good experience in this Hospital where in the doctors are very helpful and experienced.,High Satisfaction – Overall Care,True,0.921,0.557,0.31,Pulled from dashboard evidence samples to validate theme detection + business interpretation.
+TC-04,Good service by dilip kumar.,Individual Staff Appreciation,False,1.098,0.453,0.03,Pulled from dashboard evidence samples to validate theme detection + business interpretation.
+TC-05,Good service by dilip kumar.,Individual Staff Appreciation,False,1.098,0.453,0.03,Pulled from dashboard evidence samples to validate theme detection + business interpretation.

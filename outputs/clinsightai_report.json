@@ -1,0 +1,255 @@
+{
+  "clinic_summary": {
+    "overall_rating_mean": 3.57,
+    "primary_risk_themes": [
+      "Wait Time & Poor Coordination",
+      "Clinical Quality vs Management Gap"
+    ],
+    "primary_growth_drivers": [
+      "High Satisfaction – Overall Care",
+      "Individual Staff Appreciation"
+    ]
+  },
+  "theme_analysis": [
+    {
+      "theme": "Wait Time & Poor Coordination",
+      "cluster_id": 2,
+      "frequency_percentage": 17.47,
+      "average_rating": 2.45,
+      "rating_impact": -1.101,
+      "ml_importance": 0.343,
+      "risk_score": 0.613,
+      "confidence_score": 0.34,
+      "why_identified": "Theme derived from embedding-based clustering; validated via top TF-IDF keywords and representative reviews near the cluster centroid.",
+      "evidence_samples": [
+        "The staff and doctor made us to wait till evening When ever enquired we were told some more patients are in the queue",
+        "It is expected that we get to consult the doctor at scheduled time and not whenever the staff gets free. Even the follow up patients are made to wait for hours with no response from staff.",
+        "No response from management properly and everything delay things never go smooth we need to wait for hours n hours even if the patient is under emergency they never take incharge of belonging"
+      ],
+      "suggested_kpis": [
+        "Avg wait time (mins)",
+        "On-time appointment %",
+        "Queue abandonment rate",
+        "Complaints per 100 visits"
+      ]
+    },
+    {
+      "theme": "Clinical Quality vs Management Gap",
+      "cluster_id": 0,
+      "frequency_percentage": 9.14,
+      "average_rating": 2.32,
+      "rating_impact": -1.23,
+      "ml_importance": 0.182,
+      "risk_score": 0.583,
+      "confidence_score": 0.18,
+      "why_identified": "Theme derived from embedding-based clustering; validated via top TF-IDF keywords and representative reviews near the cluster centroid.",
+      "evidence_samples": [
+        "Staff is so polite and friendly Doctors are kind and diagnosed throughly Had a great experience",
+        "Hospital doctors are not good",
+        "Hospital doctors are not good."
+      ],
+      "suggested_kpis": [
+        "Post-visit issue rate",
+        "Billing dispute rate",
+        "Discharge turnaround time",
+        "Follow-up completion %"
+      ]
+    },
+    {
+      "theme": "High Satisfaction – Overall Care",
+      "cluster_id": 1,
+      "frequency_percentage": 31.63,
+      "average_rating": 4.47,
+      "rating_impact": 0.921,
+      "ml_importance": 0.314,
+      "risk_score": 0.557,
+      "confidence_score": 0.31,
+      "why_identified": "Theme derived from embedding-based clustering; validated via top TF-IDF keywords and representative reviews near the cluster centroid.",
+      "evidence_samples": [
+        "I had an good experience in this Hospital where in the doctors are very helpful and experienced.",
+        "I had an good experience in this Hospital where in the doctors are very helpful and experienced.",
+        "Good service and excellent treatments from doctor's and staff"
+      ],
+      "suggested_kpis": [
+        "NPS/CSAT",
+        "Repeat visit rate",
+        "Review volume growth"
+      ]
+    },
+    {
+      "theme": "Individual Staff Appreciation",
+      "cluster_id": 6,
+      "frequency_percentage": 1.71,
+      "average_rating": 4.65,
+      "rating_impact": 1.098,
+      "ml_importance": 0.026,
+      "risk_score": 0.453,
+      "confidence_score": 0.03,
+      "why_identified": "Theme derived from embedding-based clustering; validated via top TF-IDF keywords and representative reviews near the cluster centroid.",
+      "evidence_samples": [
+        "Good service by dilip kumar.",
+        "Good service by Dr jagadish in helping us in resolving our issues dilip Kumar In co ordinating.",
+        "Good service by dilip kumar"
+      ],
+      "suggested_kpis": [
+        "Staff mentions per 100 reviews",
+        "Recognition conversion rate"
+      ]
+    },
+    {
+      "theme": "Premium Service Experience",
+      "cluster_id": 5,
+      "frequency_percentage": 2.01,
+      "average_rating": 3.9,
+      "rating_impact": 0.351,
+      "ml_importance": 0.012,
+      "risk_score": 0.149,
+      "confidence_score": 0.01,
+      "why_identified": "Theme derived from embedding-based clustering; validated via top TF-IDF keywords and representative reviews near the cluster centroid.",
+      "evidence_samples": [
+        "Very good hospital and care.Excellent services. Happy with Fortis",
+        "Excellent service. Everything is well taken care of by the staff here. Food is also good. Very neatly maintained rooms. I am fully satisfied with the treatments and hospitality at this hospital. Thank you so much Fortis Team.",
+        "Excellent service. Everything is well taken care of by the staff here. Food is also good. Very neatly maintained rooms. I am fully satisfied with the treatments and hospitality at this hospital. Thank you so much Fortis Team."
+      ],
+      "suggested_kpis": [
+        "5-star share %",
+        "Service recovery success %"
+      ]
+    },
+    {
+      "theme": "General Facilities & Infrastructure",
+      "cluster_id": 4,
+      "frequency_percentage": 23.19,
+      "average_rating": 3.69,
+      "rating_impact": 0.139,
+      "ml_importance": 0.072,
+      "risk_score": 0.131,
+      "confidence_score": 0.07,
+      "why_identified": "Theme derived from embedding-based clustering; validated via top TF-IDF keywords and representative reviews near the cluster centroid.",
+      "evidence_samples": [
+        "One of the best hospital with good facilities We had taken full body checkup for both Really good staff and friendly staff",
+        "The hospital and all the staffs are good in service and care I m satisfied with the service But it seams bit costly compared with othere hospitals.",
+        "My experience with the hospital was good overall."
+      ],
+      "suggested_kpis": [
+        "Cleanliness score",
+        "Facility issue tickets per week",
+        "Downtime incidents"
+      ]
+    },
+    {
+      "theme": "Staff Courtesy & Service Quality",
+      "cluster_id": 3,
+      "frequency_percentage": 14.86,
+      "average_rating": 3.37,
+      "rating_impact": -0.177,
+      "ml_importance": 0.051,
+      "risk_score": 0.121,
+      "confidence_score": 0.05,
+      "why_identified": "Theme derived from embedding-based clustering; validated via top TF-IDF keywords and representative reviews near the cluster centroid.",
+      "evidence_samples": [
+        "Good service in all staffs and well maintained",
+        "Overall helpful staff and good service.",
+        "Exlent service about food and tast very good but staff is not nice"
+      ],
+      "suggested_kpis": [
+        "Courtesy score (survey)",
+        "Complaint resolution SLA",
+        "Staff responsiveness score"
+      ]
+    }
+  ],
+  "improvement_roadmap": [
+    {
+      "priority": 1,
+      "theme": "Clinical Quality vs Management Gap",
+      "recommendation": "Standardize discharge/billing communication; train front-desk workflow; implement escalation path.",
+      "effort_bucket": "High-effort improvement",
+      "expected_rating_lift": "+0.61",
+      "confidence": 0.18,
+      "kpis_to_track": [
+        "Post-visit issue rate",
+        "Billing dispute rate",
+        "Discharge turnaround time",
+        "Follow-up completion %"
+      ]
+    },
+    {
+      "priority": 2,
+      "theme": "Wait Time & Poor Coordination",
+      "recommendation": "Optimize appointment scheduling + triage; add live queue visibility; enforce on-time SLA.",
+      "effort_bucket": "High-effort improvement",
+      "expected_rating_lift": "+0.55",
+      "confidence": 0.34,
+      "kpis_to_track": [
+        "Avg wait time (mins)",
+        "On-time appointment %",
+        "Queue abandonment rate",
+        "Complaints per 100 visits"
+      ]
+    },
+    {
+      "priority": 3,
+      "theme": "Staff Courtesy & Service Quality",
+      "recommendation": "Run service training; implement complaint-resolution SLA and coaching loop.",
+      "effort_bucket": "Quick win",
+      "expected_rating_lift": "+0.09",
+      "confidence": 0.05,
+      "kpis_to_track": [
+        "Courtesy score (survey)",
+        "Complaint resolution SLA",
+        "Staff responsiveness score"
+      ]
+    },
+    {
+      "priority": 4,
+      "theme": "General Facilities & Infrastructure",
+      "recommendation": "Facility checklist + ticketing; weekly audits on cleanliness and amenities.",
+      "effort_bucket": "Quick win",
+      "expected_rating_lift": "+0.07",
+      "confidence": 0.07,
+      "kpis_to_track": [
+        "Cleanliness score",
+        "Facility issue tickets per week",
+        "Downtime incidents"
+      ]
+    },
+    {
+      "priority": 5,
+      "theme": "Premium Service Experience",
+      "recommendation": "Document what drives 5-star visits and scale those service patterns.",
+      "effort_bucket": "Reinforce & monitor",
+      "expected_rating_lift": "+0.18",
+      "confidence": 0.01,
+      "kpis_to_track": [
+        "5-star share %",
+        "Service recovery success %"
+      ]
+    },
+    {
+      "priority": 6,
+      "theme": "High Satisfaction – Overall Care",
+      "recommendation": "Protect top-performing workflows; replicate best practices across shifts/units.",
+      "effort_bucket": "Reinforce & monitor",
+      "expected_rating_lift": "+0.46",
+      "confidence": 0.31,
+      "kpis_to_track": [
+        "NPS/CSAT",
+        "Repeat visit rate",
+        "Review volume growth"
+      ]
+    },
+    {
+      "priority": 7,
+      "theme": "Individual Staff Appreciation",
+      "recommendation": "Launch staff recognition program; use mentions as coaching and reward signals.",
+      "effort_bucket": "Reinforce & monitor",
+      "expected_rating_lift": "+0.55",
+      "confidence": 0.03,
+      "kpis_to_track": [
+        "Staff mentions per 100 reviews",
+        "Recognition conversion rate"
+      ]
+    }
+  ]
+}
